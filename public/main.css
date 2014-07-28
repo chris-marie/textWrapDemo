@@ -1,0 +1,102 @@
+body {
+font-family: 'Georgia', 'Crimson-Text', 'serif';
+width: 100%;
+float: left;
+}
+ 
+h3 {
+font-size: small;
+font-family: 'Arial Black', 'Arial', 'sans-serif';
+text-transform: uppercase;
+font-weight: bold;
+color: #666666;
+}
+ 
+div#page-wrapper {
+display: block;
+margin: auto;
+padding: 1em;
+width: 960px;
+}
+ 
+div#overview {
+text-align: left;
+width: 30%;
+float: left;
+font-size: large;
+font-style: italic;
+padding: 2.7em 1em 0em 1em;
+}
+ 
+div#text-content {
+width: 30%;
+float: left;
+padding: 0 1em 0 1em;
+}
+ 
+div#set-padding {
+width: 20%;
+float: left;
+padding: 0 1em 0 1em;
+}
+ 
+div#wrap-targets {
+clear: both;
+}
+ 
+div#demo {
+width: 900px;
+}
+ 
+div#overview {
+color: #111111;
+}
+ 
+div#overview a {
+color: #111111;
+}
+ 
+div#demo textarea {
+width: 100%;
+height: 120px;
+border: 1px solid #666666;
+color: #666666;
+font-size: x-small;
+font-family: 'Arial', 'sans-serif'
+}
+ 
+div#demo input#padding {
+font-family: 'Georgia', 'Crimson Text', 'serif';
+font-style: italic;
+width: 240px;
+height: 120px;
+font-size: 70px;
+color: #666666;
+border: 1px solid #666666;
+text-align: center;
+}
+ 
+div#demo svg {
+height: 240px;
+width: 100%;
+background-color: #FFFFFF;
+border: 1px solid #666666;
+}
+ 
+svg g.targets, div.wrapped {
+font-size: 120%;
+color: #666666;
+}
+ 
+ 
+svg #rect-1 {
+fill: #FFCCCC;
+}
+ 
+svg #rect-2 {
+fill: #CCFFFF;
+}
+ 
+svg #rect-3 {
+fill: #FFFFCC;
+}

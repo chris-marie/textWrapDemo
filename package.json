@@ -1,0 +1,8 @@
+{ 
+    "name": "textWrapDemo",
+    "version": "0.0.1",
+    "description": "basic text wrapping function demo",
+    "dependencies": {
+	"express": "latest"
+    }
+}
